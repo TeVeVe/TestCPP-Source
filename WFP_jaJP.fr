@@ -1,0 +1,65 @@
+//========================================================================================
+//  
+//  $File: $
+//  
+//  Owner: Tim Vervelde
+//  
+//  $Author: $
+//  
+//  $DateTime: $
+//  
+//  $Revision: $
+//  
+//  $Change: $
+//  
+//  Copyright 1997-2008 Adobe Systems Incorporated. All rights reserved.
+//  
+//  NOTICE:  Adobe permits you to use, modify, and distribute this file in accordance 
+//  with the terms of the Adobe license agreement accompanying it.  If you have received
+//  this file from a source other than Adobe, then your use, modification, or 
+//  distribution of it requires the prior written permission of Adobe.
+//  
+//========================================================================================
+
+#ifdef __ODFRC__
+
+
+// Japanese string table is defined here
+
+resource StringTable (kSDKDefStringsResourceID + index_jaJP)
+{
+        k_jaJP,	// Locale Id
+        0,		// Character encoding converter
+
+        {
+        	// ----- Menu strings
+                kWFPCompanyKey,					kWFPCompanyValue,
+                kWFPAboutMenuKey,				kWFPPluginName "[JP]...",
+                kWFPPluginsMenuKey,				kWFPPluginName "[JP]",
+				kWFPDialogMenuItemKey,			"Show dialog[JP]",
+
+                kSDKDefAboutThisPlugInMenuKey,			kSDKDefAboutThisPlugInMenuValue_jaJP,
+
+                // ----- Command strings
+
+                // ----- Window strings
+
+                // ----- Panel/dialog strings
+					kWFPDialogTitleKey,     kWFPPluginName "[JP]",
+
+				// Drop-down list item strings
+					kWFPDropDownItem_1Key, "Tuna [JP]",
+					kWFPDropDownItem_2Key, "Salmon [JP]",
+					kWFPDropDownItem_3Key, "Bonito [JP]",
+					kWFPDropDownItem_4Key, "Yellowtail [JP]",
+
+              // ----- Error strings
+
+                // ----- Misc strings
+                kWFPAboutBoxStringKey,			kWFPPluginName " [JP], version " kWFPVersion " by " kWFPAuthor "\n\n" kSDKDefCopyrightStandardValue "\n\n" kSDKDefPartnersStandardValue_jaJP,
+
+        }
+
+};
+
+#endif // __ODFRC__

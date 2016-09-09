@@ -1,0 +1,63 @@
+//========================================================================================
+//  
+//  $File: $
+//  
+//  Owner: Tim Vervelde
+//  
+//  $Author: $
+//  
+//  $DateTime: $
+//  
+//  $Revision: $
+//  
+//  $Change: $
+//  
+//  Copyright 1997-2012 Adobe Systems Incorporated. All rights reserved.
+//  
+//  NOTICE:  Adobe permits you to use, modify, and distribute this file in accordance 
+//  with the terms of the Adobe license agreement accompanying it.  If you have received
+//  this file from a source other than Adobe, then your use, modification, or 
+//  distribution of it requires the prior written permission of Adobe.
+//  
+//========================================================================================
+
+#ifdef __ODFRC__
+
+// English string table is defined here
+
+resource StringTable (kSDKDefStringsResourceID + index_enUS)
+{
+        k_enUS,									// Locale Id
+        kEuropeanWinToMacEncodingConverter,		// Character encoding converter (irp) I made this WinToMac as we have a bias to generate on Win...
+        {
+        	 // ----- Menu strings
+                kWFPCompanyKey,					kWFPCompanyValue,
+                kWFPAboutMenuKey,				kWFPPluginName "[BLA]...",
+                kWFPPluginsMenuKey,				kWFPPluginName "[BLA]",
+				kWFPDialogMenuItemKey,			"Show dialog[BLA]",
+	
+                kSDKDefAboutThisPlugInMenuKey,			kSDKDefAboutThisPlugInMenuValue_enUS,
+
+                // ----- Command strings
+
+                // ----- Window strings
+
+                // ----- Panel/dialog strings
+				kWFPDialogTitleKey,     kWFPPluginName "[BLA]",
+
+				// ----- Drop-down list item strings
+				kWFPDropDownItem_1Key, "Tuna",
+				kWFPDropDownItem_2Key, "Salmon",
+				kWFPDropDownItem_3Key, "Bonito",
+				kWFPDropDownItem_4Key, "Yellowtail",
+
+
+		// ----- Misc strings
+                kWFPAboutBoxStringKey,			kWFPPluginName " [BLA], version " kWFPVersion " by " kWFPAuthor "\n\n" kSDKDefCopyrightStandardValue "\n\n" kSDKDefPartnersStandardValue_enUS,
+
+		
+        }
+
+};
+
+#endif // __ODFRC__
